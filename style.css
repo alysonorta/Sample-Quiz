@@ -1,0 +1,92 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.headerContainer{
+    display: flex;
+    background-color: lightseagreen;
+    padding: 0;
+    margin: auto;
+    width: 50vw;
+    height: 10vh;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    align-items: center;
+}
+
+h3 {
+    flex-grow: 1;
+}
+.container {
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: lightseagreen;
+    border: 1px solid seagreen;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn.correct {
+    background-color: lightgreen;
+}
+
+.btn.wrong {
+    background-color: palevioletred;
+}
+
+.btn:hover {
+    background-color: seagreen;
+    
+}
+
+#startButton, #nextButton {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
