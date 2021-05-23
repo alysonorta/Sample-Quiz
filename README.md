@@ -14,6 +14,8 @@ Added a variable that had an array of question/answer sets.
 Added function for timer to start when the start button was clicked and count down from 30.
 Added function for scoring to start at 0 then count up by 1 whenever a question is answered correctly.
 
+Link to quiz: https://alysonorta.github.io/Sample-Quiz/
+
 
 
 
